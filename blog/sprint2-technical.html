@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    <title>Technical Blog - Sprint 2 </title>
+    <meta charset="UTF-8">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css"/>
+  </head>
+  
+  <body>
+    <h1>What is the difference between Margin, Border, and Padding?</h1>
+    <li><a href=../index.html>Home</a></li>
+    <h2>Adam Cowie</h2>
+    <h3>13 September 2019</h3>
+    
+    <p1>  <img src="boxmodel.jpg" alt="Padding, Margin and Border Picture" style="float:right;width:500px;height:500px;">
+        The border describes the stuff around and element, whereas the padding is the distance between the element and the border and the margin is the distance between the border and the next element. I think the best way I saw to explain this was visually so inserted below you will find a handy diagram I found explaining the difference.
+        As you can see to the right, the margin, the border and the padding stack on top of each other to help us define how the space around the content is used.
+        
+    </p1>
+        
+    <p2></br>
+        With each of these functions you can indicate specific distances for each side, but it is also worth noting that it is possible to set the size of all sides in one function. When we do this the convention is that if there are 4 values following the function then they will start with the top side and then move clockwise around the element.
+        For example if I were to use the function <i>margin: 40px, 30px, 20px, 10px;</i> the distance of the top margin would be 40 pixels, the right-hand margin would be 30 pixels, the bottom margin would be 20 pixels and the left-hand margin would be 10 pixels.
+        This convention is similar across most of the formatting functions where you can name a distance on both sides.
+        If you used 3 values instead of 4, it will be read as the top side, both the left and right sides and then the bottom side. So <i>margin: 40px, 20px, 30px;</i> would
+        set the distance of the margin for the top and bottom sides as 40 pixels and 30 pixels each, and the distance of the left and right margins would both be set to 20 pixels.
+        Similarly for a function where 2 values are provided the first value will set the top and bottom and the second value will set the left and right distances.
+    </p2>
+
+    <p3></br>
+       The border function also has a number of fill options that allow you to customise how you border appears. You can use the <i>border-style</i> function to specify whether you would like a dashed border, a solid one, or a double border.
+       You can even specify a different border style for each side of your element. This is done in the same manner as above, with the vlue for the top border coming first and then moving in a clockwise direction around the element such as border-style: dotted solid double dashed;
+        In that example, the top border would be dotted, the right-hand border would be solid, the bottom border would be double and the right-hand border would be dashed.
+        You can also use a border-color function to change the color, and using this in combination with the border height, width and style can create some pretty funky looking borders.
+
+    </p3>
+
+    <!-- this is a comment. -->
+  
+  </body>
+</html>

@@ -1,17 +1,36 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
 
+body{
+    background-color:#DAFFED;
+    font-family: 'Segoe UI'; 
+    margin: 100px, 50px, 50px, 100px;
+}
 h1{
-    background-color: green;
- }
-
-</style>
-</head>
-<body>
-
-
-
-</body>
-</html>
+    text-align: center;
+    color: #131B23;  
+    background-color: #CBEAA6;
+    font-family: 'Segoe UI';
+}
+h2{
+    font-family: 'Segoe UI';
+}
+h3{
+    font-family: 'Segoe UI';
+}
+p1{
+    text-align: left;
+    color: #131B23;
+    line-height: 0.9;
+    font-family: 'Segoe UI';
+}
+p2{
+    text-align: left;
+    color: #131B23;
+    line-height: 0.9;
+    font-family: 'Segoe UI';
+}
+p3{
+    text-align: left;
+    color: #131B23;
+    line-height: 0.9;
+    font-family: 'Segoe UI';
+}
